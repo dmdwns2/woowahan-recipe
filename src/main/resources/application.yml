@@ -3,6 +3,8 @@ server:
 servlet:
   encoding:
     force-response: true
+  multipart:
+    enable: true
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
