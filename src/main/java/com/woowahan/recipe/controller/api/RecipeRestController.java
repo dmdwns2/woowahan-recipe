@@ -135,4 +135,19 @@ public class RecipeRestController {
         Integer likeCnt = recipeService.countLikes(id, userName);
         return Response.success(likeCnt);
     }
+
+    /**
+     * @author 이소영
+     * @param
+     * @date 2023-01-25
+     * @return Response<Page<RecipePageResDto>>
+     * @description
+    **/
+    @GetMapping("/my/likes")
+    public Response<Page<RecipePageResDto>> findRecipesByLikeEntity(Authentication authentication) {
+        String userName = authentication.getName();
+        Page<RecipePageResDto> recipes = recipeService.findRecipesByLikeEntity(userName);
+        return Response.success(recipes);
+
+    }
 }

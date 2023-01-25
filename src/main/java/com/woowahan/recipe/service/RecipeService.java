@@ -181,6 +181,17 @@ public class RecipeService {
     }
 
     /**
+     * @author 이소영
+     * @param userName
+     * @date 2023-01-25
+     * @return Page<RecipePageResDto>
+     * @description 현재 로그인한 회원이 좋아요를 누른 레시피 조회
+    **/
+//    public Page<RecipePageResDto> findRecipesByLikeEntity(String userName) {
+//
+//    }
+
+    /**
      * @author 김응준
      * @param recipeCreateReqDto
      * @param userName
@@ -212,7 +223,6 @@ public class RecipeService {
                 });
         return user;
     }
-
     /**
      * @author 이소영
      * @param id
@@ -225,6 +235,7 @@ public class RecipeService {
             throw new AppException(ErrorCode.RECIPE_NOT_FOUND, ErrorCode.RECIPE_NOT_FOUND.getMessage());
         });
     }
+
     /**
      * @author 김응준
      * @param userName
@@ -238,5 +249,4 @@ public class RecipeService {
             throw new AppException(ErrorCode.INVALID_PERMISSION, ErrorCode.INVALID_PERMISSION.getMessage());
         }
     }
-
 }

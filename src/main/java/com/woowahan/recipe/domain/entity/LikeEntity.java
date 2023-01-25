@@ -27,6 +27,15 @@ public class LikeEntity extends BaseEntity {
     @JoinColumn(name = "recipe_id")
     private RecipeEntity recipe;
 
+    public void setRecipe(RecipeEntity recipe) {
+        this.recipe = recipe;
+
+        // 무한루프에 빠지지 않도록 체크
+        if(!recipe.getLikeList().contains(this)) {
+            recipe.getLikeList().add(this);
+        }
+    }
+
     public static LikeEntity of(UserEntity user, RecipeEntity recipe) {
         return LikeEntity.builder()
                 .user(user)
