@@ -82,7 +82,8 @@ Swagger: http://woowahan.store:8080/swagger-ui/ 로 접속하여 Swagger 실행
 
 ### ✨ Service Architecture
 
-![서비스 아키텍처](./assets/서비스 아키텍처.png)
+![image1](https://user-images.githubusercontent.com/105894868/219577763-1510e1fb-fb0e-4880-b4bc-04a1edd75d3f.png)
+
 
 <br />
 
