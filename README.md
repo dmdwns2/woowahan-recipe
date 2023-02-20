@@ -10,6 +10,7 @@
 
 👉 [우아한 레시피 기능 보러가기](https://www.notion.so/Front-Rreview-7eb64f2ba6344b1e90dd8a6703fddeda)
 
+시연영상 : https://drive.google.com/file/d/1NDytIlL2FpUXkLb5VuWMQAvFzA3mX-l_/view?usp=share_link
 
 
 ### 📢 실행 방법
