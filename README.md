@@ -33,24 +33,6 @@
 
 <br />
 
-### 🔗 계정 및 배포 주소
-
-----
-
-**HEAD 계정** : head / head1234
-
-**ADMIN 계정** : admin / admin1234
-
-**SELLER 계정** : seller1 / seller1234
-
-**USER 계정** : user1 / user1234
-
-배포 주소 : http://woowahan.store:8080/ 로 접속하여 우아한 레시피 실행
-
-Swagger: http://woowahan.store:8080/swagger-ui/ 로 접속하여 Swagger 실행
-
-<br />
-
 ### 💻 기술 스택 및 개발 환경
 
 ---
